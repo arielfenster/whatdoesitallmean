@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fd9488743bb1f99398c3796146e65bdc",
+    "revision": "f2fa6be1aa6d2498a5c36c18ca6f5808",
     "url": "/whatdoesitallmean/index.html"
   },
   {
-    "revision": "757ca1138e484d875dd5",
+    "revision": "f6bb6542867afd278a44",
     "url": "/whatdoesitallmean/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whatdoesitallmean/static/js/2.0a3a957e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "757ca1138e484d875dd5",
-    "url": "/whatdoesitallmean/static/js/main.5142a2ba.chunk.js"
+    "revision": "f6bb6542867afd278a44",
+    "url": "/whatdoesitallmean/static/js/main.d372a192.chunk.js"
   },
   {
     "revision": "7bc3688e917e5117de83",

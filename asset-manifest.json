@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/whatdoesitallmean/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/whatdoesitallmean/static/js/main.5142a2ba.chunk.js",
-    "main.js.map": "/whatdoesitallmean/static/js/main.5142a2ba.chunk.js.map",
+    "main.js": "/whatdoesitallmean/static/js/main.d372a192.chunk.js",
+    "main.js.map": "/whatdoesitallmean/static/js/main.d372a192.chunk.js.map",
     "runtime-main.js": "/whatdoesitallmean/static/js/runtime-main.1b8a4260.js",
     "runtime-main.js.map": "/whatdoesitallmean/static/js/runtime-main.1b8a4260.js.map",
     "static/js/2.0a3a957e.chunk.js": "/whatdoesitallmean/static/js/2.0a3a957e.chunk.js",
     "static/js/2.0a3a957e.chunk.js.map": "/whatdoesitallmean/static/js/2.0a3a957e.chunk.js.map",
     "index.html": "/whatdoesitallmean/index.html",
-    "precache-manifest.8238d7de9c0fd25e674a4a12a1963261.js": "/whatdoesitallmean/precache-manifest.8238d7de9c0fd25e674a4a12a1963261.js",
+    "precache-manifest.1ab5261cd603d2fde626133ef9b26c5b.js": "/whatdoesitallmean/precache-manifest.1ab5261cd603d2fde626133ef9b26c5b.js",
     "service-worker.js": "/whatdoesitallmean/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/whatdoesitallmean/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.0a3a957e.chunk.js.LICENSE.txt": "/whatdoesitallmean/static/js/2.0a3a957e.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.1b8a4260.js",
     "static/js/2.0a3a957e.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.5142a2ba.chunk.js"
+    "static/js/main.d372a192.chunk.js"
   ]
 }
