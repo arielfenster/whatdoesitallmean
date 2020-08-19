@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './css/index.css';
-import App from './components/App';
+import StartPage from './pages/StartPage/components/StartPage';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StartPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
