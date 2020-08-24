@@ -1,0 +1,1 @@
+{"version":3,"sources":["Container.css"],"names":[],"mappings":"AAAA,SACE,WAAY,CACZ,UAAW,CACX,QAAO,CACP,iBACF,CAEA,WACE,qBAAuB,CACvB,WACF","file":"main.1ecc5c19.chunk.css","sourcesContent":[".wrapper {\r\n  height: 100%;\r\n  width: 100%;\r\n  flex: 1;\r\n  background: orange;\r\n}\r\n\r\n.container {\r\n  border: 2px solid black;\r\n  height: 100%;\r\n}"]}
