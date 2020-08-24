@@ -5,10 +5,9 @@ const StartPage = (props) => {
 
   return (
     <div>
-      <p>
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s when an unknown printer
-        took a galley of type and scrambled it to make a type specimen book.
-        It has survived not only five centuries, but also the leap into electronic typesetting
+      <p style={{fontSize: '20px'}}>
+        TO UNLOCK THE SECOND PART OF YOUR BIRTHDAY, YOU MUST COMPLETE THIS CHALLENGE. <br></br>
+        ARE YOU UP FOR IT?
       </p>
       <button onClick={nextStep}> Start </button>
     </div>

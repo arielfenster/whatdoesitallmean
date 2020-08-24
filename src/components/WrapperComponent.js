@@ -13,16 +13,10 @@ const WrapperComponent = (Component) => {
 
     handleChange = (correctAnswer) => (event) => {
       const { value } = event.target;
-      if (correctAnswer === value) {
-        this.setState({
-          isDisabled: false,
-        });
-      } else {
-        this.setState(prevState => ({
-          ...prevState,
-          answer: value,
-        }));
-      }
+      this.setState({
+        answer: value,
+        isDisabled: correctAnswer !== value
+      });
     }
 
     render() {

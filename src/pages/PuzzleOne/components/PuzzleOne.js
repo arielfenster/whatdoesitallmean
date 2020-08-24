@@ -10,7 +10,7 @@ const PuzzleOne = (props) => {
   useEffect(() => {
     setTimeout(() => {
       setIsVisible(true);
-    }, 2000);
+    }, 10000);
   }, []);
 
   const handleClick = () => {
