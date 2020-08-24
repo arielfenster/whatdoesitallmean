@@ -24,9 +24,9 @@ const WrapperComponent = (Component) => {
 
       return (
         <Component
-          answer={this.state.answer}
           nextStep={nextStep}
           handleChange={this.handleChange}
+          answer={this.state.answer}
           isDisabled={this.state.isDisabled}
         />
       );

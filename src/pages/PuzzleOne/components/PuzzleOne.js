@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 import WrapperComponent from '../../../components/WrapperComponent';
-import { PUZZLE_ONE_SOLUTION } from '../../../solutions';
+import { PUZZLE_ONE_SOLUTION } from '../../../resources';
 
-const PuzzleOne = (props) => {
+const PuzzleOne = ({ handleChange, nextStep, isDisabled }) => {
   const [isVisible, setIsVisible] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
-
-  const { handleChange, nextStep, isDisabled } = props;
-
+  
   setTimeout(() => setIsVisible(true), 10000);
   
   const handleClick = () => {
