@@ -1,12 +1,10 @@
 .div-puzzle-two {
-  border: 2px solid green;
-  /* background: green; */
+  height: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-items: space-between; */
   align-items: center;
+  color: white;
 }
-
-input {
-  width: 20%;
+.div-hint {
+  align-self: center;
 }
