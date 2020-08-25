@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import MapComponent from './MapComponent';
-// import { COORDINATES } from '../../../resources';
 
 const CoordinatesPage = (props) => {
   const [coordinates, setCoordinates] = useState({

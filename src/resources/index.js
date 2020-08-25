@@ -1,7 +1,3 @@
-// herzliya
-// export const COORDINATES = { lat: 32.1585424, lng: 34.7955962 };
-
-// tel aviv
 export const COORDINATES = { lat: 32.066681, lng: 34.762339 };
 
 export const PUZZLE_ONE_SOLUTION = 'whatdoesitallmean';

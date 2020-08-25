@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import WrapperComponent from '../../../components/WrapperComponent';
+import img from '../../../images/hintOne.png';
 import { PUZZLE_ONE_SOLUTION } from '../../../resources';
 
 const PuzzleOne = ({ handleChange, nextStep, isDisabled }) => {
@@ -27,10 +28,10 @@ const PuzzleOne = ({ handleChange, nextStep, isDisabled }) => {
         {`puzzle-one: <answer>`}
       </p>
       {
-        isVisible && <button onClick={handleClick}> Click for hint </button>
+        isVisible && <button onClick={handleClick}> Hint </button>
       }
       {
-        isClicked && <p> The username of the GitHub's profile you want to search in starts with the word 'ariel' </p>
+        isClicked && <img src={img} alt='Search my profile - arielfenster' />
       }
       <input type='text' onChange={handleChange(PUZZLE_ONE_SOLUTION)} />
       <button onClick={nextStep} disabled={isDisabled}> Next stage </button>
