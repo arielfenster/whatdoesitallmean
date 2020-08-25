@@ -10,15 +10,18 @@ const PuzzleOne = ({ handleChange, nextStep, isDisabled }) => {
   return (
     <div className="div-puzzle-one">
       <h1> Puzzle one </h1> 
-      <p>
+      <h3 id='description'>
         We will start slow with a relatively easy puzzle.
-        As I have been told, you have some experience in looking in other people's git repositories.
-        So why not put it to the test:
+        <br></br>
+        As I have been told, you have some experience in looking in other people's git repositories,
+        so why not put it to the test:
+        <br></br>
         Search through all of the README.md files in ALL of GitHub to find the answer to this puzzle.
+        <br></br>
         The answer will be in the form of:
         <br></br>
         {`puzzle-one: <answer>`}
-      </p>
+      </h3>
       <PuzzleFooter 
         onChange={handleChange(PUZZLE_ONE_SOLUTION)}
         onClick={nextStep}

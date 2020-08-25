@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import MapComponent from './MapComponent';
+import NextStep from '../../../components/ButtonNextStep';
 
-const CoordinatesPage = (props) => {
+import '../css/CoordinatesPage.css';
+
+const CoordinatesPage = ({ nextStep }) => {
   const [coordinates, setCoordinates] = useState({
     lat: '',
     lng: '',
@@ -20,19 +23,23 @@ const CoordinatesPage = (props) => {
     setIsClicked(!isClicked);
   };
 
+  const className = isClicked ? 'div-hide' : 'div-inputs';
+
   return (
-    <div style={{height: '100%', width: '100%' }}>
-      <h1> Coordinates Page </h1>
-      <h3> Enter the coordinates you found </h3>
-      <div>
-        <label> First number </label>
-        <input type='text' onChange={handleChange('lat')} />
+    <div className='div-coordinates'>
+      <div className={className}>
+          <h1> Coordinates Page </h1>
+          <h3> Enter the coordinates you found </h3>
+        <div>
+            <label> First number </label>
+            <input type='text' onChange={handleChange('lat')} />
+        </div>
+        <div>
+            <label> Second number </label>
+            <input type='text' onChange={handleChange('lng')} />
+        </div>
       </div>
-      <div>
-        <label> Second number </label>
-        <input type='text' onChange={handleChange('lng')} />
-      </div>
-      <button onClick={handleClick}> Finish! </button>
+      <NextStep onClick={handleClick}> Finish! </NextStep>
       {
         isClicked && <MapComponent coordinates={coordinates} />
       }

@@ -3,19 +3,26 @@ import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 import { API_KEY } from '../../../resources';
 
 const libraries = ['places'];
-const mapContainerStyle = {
-  width: '400px',
-  height: '400px'
-};
+
+const styles = {
+  mapContainerStyle: {
+    width: '100%',
+    height: '100%',
+  },
+  divStyle: {
+    width: '100%',
+    height: '100%',
+  }
+}
 
 const MapComponent = ({ coordinates }) => {
   const [markerPosition, setMarkerPosition] = useState({});
 
   return (
-    <div style={{width: '100%', height: '100%'}}>
+    <div style={styles.divStyle}>
       <LoadScript googleMapsApiKey={API_KEY} libraries={libraries} >
         <GoogleMap
-          mapContainerStyle={mapContainerStyle}
+          mapContainerStyle={styles.mapContainerStyle}
           zoom={12}
           center={{
             lat: parseFloat(coordinates.lat),

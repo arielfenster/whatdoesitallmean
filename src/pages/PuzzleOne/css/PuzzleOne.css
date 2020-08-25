@@ -1,7 +1,6 @@
 .div-puzzle-one {
   height: 100%;
   width: 100%;
-  /* background: white; */
   color: white;
   display: flex;
   flex-direction: column;
@@ -35,4 +34,11 @@
 input {
   border-radius: 3px;
   font-size: 15px;
+}
+
+#description {
+  text-align: center;
+  white-space: pre-wrap;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 30px;
 }
