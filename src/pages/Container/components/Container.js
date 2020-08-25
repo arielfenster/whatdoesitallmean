@@ -8,7 +8,7 @@ import CoordinatesPage from '../../CoordinatesPage/components/CoordinatesPage';
 import '../css/Container.css'
 
 const Container = (props) => {
-  const [step, setStep] = useState(0);
+  const [step, setStep] = useState(1);
 
   const nextStep = () => {
     setStep(step + 1);

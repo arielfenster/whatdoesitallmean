@@ -1,12 +1,19 @@
 .wrapper {
-  flex: 1;
+  background: pink;
   height: 100%;
-  width: 100%;
-  background: orange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Mystery Quest';
+  font-size: 35px;
 }
 
 .container {
-  border: 4px solid black;
-  width: 100%;
-  height: 100%;
+  font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+  font-size: 15px;
+  background: black;
+  margin: 20px;
+  width: 50%;
+  height: 50%;
+  border-radius: 3%;
 }
