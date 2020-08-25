@@ -32,7 +32,7 @@ const CoordinatesPage = (props) => {
         <label> Second number </label>
         <input type='text' onChange={handleChange('lng')} />
       </div>
-      <button onClick={handleClick}> Final stage! </button>
+      <button onClick={handleClick}> Finish! </button>
       {
         isClicked && <MapComponent coordinates={coordinates} />
       }
